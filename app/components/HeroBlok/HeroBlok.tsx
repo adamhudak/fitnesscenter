@@ -18,7 +18,7 @@ export const HeroBlok = () => {
       .from('.hero-btns', { y: 20, opacity: 0, duration: 0.6, ease: 'power2.out' }, '-=0.3')
       .from('.hero-stats-item', { y: 30, opacity: 0, duration: 0.5, stagger: 0.1, ease: 'power2.out' }, '-=0.2')
       .from('.hero-image', { scale: 1.1, opacity: 0, duration: 1.2, ease: 'power2.out' }, 0)
-      .add(() => gsap.set('.hero-image', { willChange: 'auto' }));
+      .add(() => { gsap.set('.hero-image', { willChange: 'auto' }); });
 
     // Floating badge animation
     gsap.to('.hero-badge', {
