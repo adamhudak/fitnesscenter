@@ -1,0 +1,1 @@
+export { GalleryBlok } from "./GalleryBlok";

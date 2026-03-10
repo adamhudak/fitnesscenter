@@ -1,0 +1,1 @@
+export { AboutBlok } from "./AboutBlok";

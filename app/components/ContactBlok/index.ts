@@ -1,0 +1,1 @@
+export { ContactBlok } from "./ContactBlok";

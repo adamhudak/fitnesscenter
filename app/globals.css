@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+
+:root {
+  --crimson: #DC0000;
+  --crimson-light: #FF1A1A;
+  --crimson-dark: #9B0000;
+  --black: #0A0A0A;
+  --black-mid: #141414;
+  --black-light: #1E1E1E;
+  --black-card: #1A1A1A;
+  --grey: #2A2A2A;
+  --grey-mid: #555555;
+  --grey-light: #888888;
+  --white: #F5F5F5;
+  --white-pure: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: var(--font-body), 'Barlow', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display), 'Bebas Neue', sans-serif;
+}
+
+::selection {
+  background: var(--crimson);
+  color: var(--white-pure);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--crimson);
+  border-radius: 3px;
+}

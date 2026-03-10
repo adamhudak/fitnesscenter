@@ -1,0 +1,1 @@
+export { FooterBlok } from "./FooterBlok";
